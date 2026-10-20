@@ -1,0 +1,48 @@
+name: Weekly job search
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"   # Every Monday at 07:00 UTC (08:00 UK summer time)
+  workflow_dispatch:       # Lets you run it any time from the Actions tab
+
+permissions:
+  contents: write   # save the report and update seen.csv
+  issues: write     # open an issue so GitHub emails you the shortlist
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Search and score new roles
+        id: sweep
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL: ${{ vars.MODEL || 'claude-sonnet-5-5' }}
+          MAX_SEARCHES: ${{ vars.MAX_SEARCHES || '15' }}
+          DAYS_BACK: ${{ vars.DAYS_BACK || '7' }}
+          SHOW_FROM: ${{ vars.SHOW_FROM || '60' }}
+        run: python scripts/weekly_search.py
+
+      - name: Save the report and tracker
+        run: |
+          git config user.name "job-finder-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add results my-search/seen.csv
+          git commit -m "Job sweep $(date +%F)" || echo "Nothing new to save"
+          git push
+
+      - name: Email me the shortlist (as a GitHub issue)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --title "Job sweep $(date +%F): ${{ steps.sweep.outputs.shortlist }} worth a look" \
+            --body-file "${{ steps.sweep.outputs.report }}"
