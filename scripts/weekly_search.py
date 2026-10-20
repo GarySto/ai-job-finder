@@ -64,6 +64,10 @@ Rules:
 - Score each role out of 100 against my rubric. Any role that hits a deal-breaker scores 0.
 - Verdict: "Apply" for 75+, "Stretch" for 60-74, "Skip" below 60.
 - If you can't find many good matches, return fewer. An honest short list is better than a padded one.
+- If the salary isn't shown, give half marks for the salary part of the rubric and set salary to "not shown".
+- If a recruitment agency posted it and doesn't name the employer, set company to "Agency: [name], employer not named" and give no marks for the employer's brand.
+- Link to the original advert (company careers page or LinkedIn) rather than a site that copies adverts, where you can.
+- Be strict. 75+ should mean a role this person would genuinely be excited to apply for.
 
 When you have finished searching, reply with ONLY a JSON array inside a ```json code block, nothing else. Each item:
 {{"score": 0-100, "verdict": "Apply|Stretch|Skip", "job_title": "", "company": "", "location": "", "salary": "", "date_posted": "", "link": "", "reason": "one line"}}
