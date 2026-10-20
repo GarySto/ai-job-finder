@@ -18,7 +18,7 @@ Pick the level that suits you:
 > **Before you start:** remove your phone number, email address and home address from your CV. The AI doesn't need them.
 > **And always check:** AI can get things wrong. Open the advert and check it before you apply.
 >
-> **Tested on:** Microsoft Copilot and Google Gemini (October 2026), with the web search step also checked in Claude. ChatGPT not yet tested.
+> **Tested on:** Claude, Microsoft Copilot and Google Gemini (October 2026). ChatGPT not yet tested.
 
 ---
 
