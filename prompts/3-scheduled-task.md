@@ -1,6 +1,6 @@
 # Level 3, route A: a scheduled task in your AI app
 
-No code. You need an AI assistant that can run **scheduled tasks** (some paid plans of Claude and ChatGPT offer them; look for "scheduled tasks" or "Tasks" in the app). Prefer something free and fully under your control? Use [route B, the GitHub version](../README.md#level-3-route-b-the-github-version).
+No code. You need an AI assistant that can run **scheduled tasks** (ChatGPT offers them on its paid plans and other assistants are adding similar features; look for "scheduled tasks" or "Tasks" in the app). Prefer something free and fully under your control? Use [route B, the GitHub version](../README.md#level-3-route-b-the-github-version).
 
 1. Set up [Level 2](2-intermediate.md) first, so your rubric and CV are saved in a project.
 2. Create a new scheduled task that runs once a week. Monday morning works well.

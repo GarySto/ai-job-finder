@@ -1,6 +1,6 @@
 # Level 1: Starter prompt
 
-One prompt, one conversation, about 20 minutes. Works in Claude, ChatGPT, Microsoft Copilot or Google Gemini, **with web search switched on**.
+One prompt, one conversation, about 20 minutes. Tested in Microsoft Copilot and Google Gemini, and should work the same way in Claude or ChatGPT, **with web search switched on**.
 
 1. Open your AI assistant and start a new chat.
 2. Copy everything in the box below and paste it into the chat.

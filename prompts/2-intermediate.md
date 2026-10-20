@@ -4,10 +4,10 @@ Save your rubric and CV in one place, so each week you send one short message an
 
 ## Where to save it
 
-- **Claude:** create a **Project**. Paste the instructions below as the project instructions, and upload your rubric and CV as project files.
-- **ChatGPT:** create a **Project** and do the same, or build a custom GPT if your plan includes it.
-- **Gemini:** create a **Gem** and paste the instructions in.
-- **Copilot:** if you have Microsoft 365 Copilot, build an agent with the same instructions. Use your own personal account for your job search, not your employer's.
+- **Claude:** create a **Project** (free plans included). Paste the instructions below as the project instructions, and upload your rubric and CV as project files.
+- **ChatGPT:** create a **Project** and do the same. Custom GPTs need a paid plan, but a Project does the job.
+- **Gemini:** create a **Gem** at gemini.google.com (free) and paste the instructions in, with your rubric and CV underneath.
+- **Copilot:** the personal version doesn't let you build your own agent, so use the document method below. Keep your job search on your personal account, not your employer's.
 
 No projects feature? Keep the instructions, rubric and CV in one document and paste them in at the start of each chat.
 

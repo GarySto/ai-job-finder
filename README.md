@@ -11,14 +11,14 @@ Pick the level that suits you:
 | Level | What it is | You need | Time |
 |---|---|---|---|
 | [1. Starter](prompts/1-starter.md) | One copy-and-paste prompt. It interviews you, builds your rubric, reads your CV, searches and scores roles. | Any AI assistant with web search (free plans work) | About 20 minutes |
-| [2. Intermediate](prompts/2-intermediate.md) | Save your rubric and CV in a project, then run a short search each week. | Claude, ChatGPT, Gemini or Copilot | 5 minutes a week |
+| [2. Intermediate](prompts/2-intermediate.md) | Save your rubric and CV in a project, then run a short search each week. | Claude, ChatGPT or Gemini (Copilot works by pasting) | 5 minutes a week |
 | [3A. Scheduled task](prompts/3-scheduled-task.md) | Your AI app runs the search every week on its own. | An AI plan with scheduled tasks | Set up once |
 | [3B. GitHub version](#level-3-route-b-the-github-version) | This repository. A free weekly GitHub Action that searches, scores, keeps a tracker and emails you a shortlist. | A free GitHub account and an Anthropic API key | Set up once, about 15 minutes |
 
 > **Before you start:** remove your phone number, email address and home address from your CV. The AI doesn't need them.
 > **And always check:** AI can get things wrong. Open the advert and check it before you apply.
 >
-> **Tested on:** Claude, Microsoft Copilot and Google Gemini (October 2026). ChatGPT not yet tested.
+> **Tested on:** Microsoft Copilot and Google Gemini (October 2026), with the web search step also checked in Claude. ChatGPT not yet tested.
 
 ---
 
