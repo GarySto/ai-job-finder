@@ -4,7 +4,7 @@
 
 Instead of scrolling hundreds of adverts, you decide what a good role looks like *for you*, write it down as a scoring rubric, then let AI search the web and score every role it finds. You only spend time on the ones that score well.
 
-I built this for my own job search and I'm sharing it because a lot of people I know have been made redundant from tech this year. The full walkthrough, with screenshots and tips, is on my site: **[How to use AI to find jobs that actually fit you](https://garystow.co.uk/guides/how-to-use-ai-to-find-jobs-that-fit-you/)**.
+I built this to help people in my network who've been made redundant. A lot of people I know have lost their jobs in tech this year, so I'm sharing it with everyone. The full walkthrough, with screenshots and tips, is on my site: **[How to use AI to find jobs that actually fit you](https://garystow.co.uk/guides/how-to-use-ai-to-find-jobs-that-fit-you/)**.
 
 Pick the level that suits you:
 
