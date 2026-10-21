@@ -88,4 +88,11 @@ Every new role, including the low scorers, is added to `my-search/seen.csv` with
 
 ## Credit and licence
 
-Made by [Gary Stow](https://garystow.co.uk). Free to use, copy and adapt under the [MIT licence](LICENSE). If it helps you land something, I'd love to hear about it on [LinkedIn](https://linkedin.com/in/garystow).
+Made by [Gary Stow](https://garystow.co.uk).
+
+- **The prompts, rubric template and guides** (everything in `prompts/`, `my-search/` and this README) are licensed under [Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/). Careers advisers, job clubs, charities and newsletter writers are welcome to copy and adapt them, as long as it isn't for commercial use and you credit Gary Stow with a link to https://garystow.co.uk/guides/how-to-use-ai-to-find-jobs-that-fit-you/
+- **The code** (`scripts/` and `.github/workflows/`) is under the [MIT licence](LICENSE), so you can run and change it freely.
+
+Want to use the prompts commercially, for example in a paid course or an outplacement service? [Get in touch](https://garystow.co.uk/contact/).
+
+If it helps you land something, I'd love to hear about it on [LinkedIn](https://linkedin.com/in/garystow).
