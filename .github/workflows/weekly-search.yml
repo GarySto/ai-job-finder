@@ -11,6 +11,9 @@ permissions:
 
 jobs:
   search:
+    # Skip the Monday schedule on the public template itself (its CV is a placeholder, so it always failed).
+    # Your own copy runs as normal. You can still run it here by hand from the Actions tab.
+    if: github.repository != 'GarySto/ai-job-finder' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
